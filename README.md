@@ -238,3 +238,9 @@ No authentication required. Please be respectful of rate limits — the API is s
 ## License
 
 [MIT](LICENSE)
+
+## Acknowledgements
+
+- [Model Context Protocol](https://modelcontextprotocol.io) — Open standard for LLM context exchange
+- [Maven Central](https://search.maven.org/) — Public search API
+- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) — Server and client implementation
