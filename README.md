@@ -1,5 +1,6 @@
 # Maven MCP Server
 
+[![Build](https://github.com/amalpotra/maven-mcp-server/actions/workflows/build.yml/badge.svg)](https://github.com/amalpotra/maven-mcp-server/actions/workflows/build.yml)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D22.0.0-green)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0-blue)](https://www.typescriptlang.org/)
 
