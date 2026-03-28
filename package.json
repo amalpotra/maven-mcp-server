@@ -1,0 +1,52 @@
+{
+  "name": "maven-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for querying Maven Central — search artifacts, look up versions, and generate dependency snippets for Java/Kotlin/Scala projects.",
+  "keywords": [
+    "mcp",
+    "maven",
+    "maven-central",
+    "java",
+    "kotlin",
+    "scala",
+    "gradle",
+    "modelcontextprotocol"
+  ],
+  "license": "MIT",
+  "author": "Amarjeet Malpotra",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmarjeetMalpotra/maven-mcp-server.git"
+  },
+  "homepage": "https://github.com/AmarjeetMalpotra/maven-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/AmarjeetMalpotra/maven-mcp-server/issues"
+  },
+  "type": "module",
+  "bin": {
+    "maven-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
+}
