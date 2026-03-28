@@ -16,11 +16,11 @@
   "author": "Amarjeet Malpotra",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmarjeetMalpotra/maven-mcp-server.git"
+    "url": "git+https://github.com/amalpotra/maven-mcp-server.git"
   },
-  "homepage": "https://github.com/AmarjeetMalpotra/maven-mcp-server#readme",
+  "homepage": "https://github.com/amalpotra/maven-mcp-server#readme",
   "bugs": {
-    "url": "https://github.com/AmarjeetMalpotra/maven-mcp-server/issues"
+    "url": "https://github.com/amalpotra/maven-mcp-server/issues"
   },
   "type": "module",
   "bin": {

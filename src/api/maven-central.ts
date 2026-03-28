@@ -2,13 +2,12 @@ import type { MavenGAVSearchResponse, MavenSearchResponse } from "./types.js";
 
 /** Error with optional HTTP status code from Maven Central API. */
 export class MavenCentralError extends Error {
-  public readonly statusCode: number | undefined;
+  override readonly name = "MavenCentralError";
+  readonly statusCode: number | undefined;
 
   constructor(message: string, statusCode?: number) {
     super(message);
-    this.name = "MavenCentralError";
     this.statusCode = statusCode;
-    Object.setPrototypeOf(this, MavenCentralError.prototype);
   }
 }
 

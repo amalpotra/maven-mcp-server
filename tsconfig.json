@@ -1,17 +1,13 @@
 {
   "compilerOptions": {
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
     "types": ["node"],
     "outDir": "./dist",
     "rootDir": "./src",
-    "strict": true,
     "skipLibCheck": true,
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "tests"],
